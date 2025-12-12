@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Main application entry point for the Personal AI RAG System."""
+"""Main application entry point for the VISTA."""
 
 import logging
 import sys
@@ -43,7 +43,7 @@ def initialize_system(config: Config) -> QueryEngine:
     logger = logging.getLogger(__name__)
     
     try:
-        logger.info("Starting Echo....")
+        logger.info("Starting Vista....")
         logger.info(f"Using LLM Provider: {config.llm_provider}")
         logger.info(f"Using LLM Model: {config.llm_model}")
         

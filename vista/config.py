@@ -1,4 +1,4 @@
-# """Configuration management for the Personal AI RAG System."""
+# """Configuration management for the Vista."""
 
 # from dataclasses import dataclass, field
 # from pathlib import Path
@@ -9,7 +9,7 @@
 
 # @dataclass
 # class Config:
-#     """Configuration for the Personal AI RAG System.
+#     """Configuration for the Vista.
     
 #     Attributes:
 #         chunk_size: Maximum size of text chunks in characters
